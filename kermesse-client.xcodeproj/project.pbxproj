@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE4021EC1CCBDF6400A192B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4021EB1CCBDF6400A192B4 /* AppDelegate.swift */; };
+		FE4021EE1CCBDF6400A192B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE4021ED1CCBDF6400A192B4 /* Assets.xcassets */; };
+		FE4021F11CCBDF6400A192B4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4021EF1CCBDF6400A192B4 /* MainMenu.xib */; };
+		FE4021FC1CCBDF6400A192B4 /* kermesse_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4021FB1CCBDF6400A192B4 /* kermesse_clientTests.swift */; };
+		FE4022071CCBDF6400A192B4 /* kermesse_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4022061CCBDF6400A192B4 /* kermesse_clientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE4021F81CCBDF6400A192B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE4021E01CCBDF6400A192B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE4021E71CCBDF6400A192B4;
+			remoteInfo = "kermesse-client";
+		};
+		FE4022031CCBDF6400A192B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE4021E01CCBDF6400A192B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE4021E71CCBDF6400A192B4;
+			remoteInfo = "kermesse-client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE4021E81CCBDF6400A192B4 /* kermesse-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kermesse-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4021EB1CCBDF6400A192B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE4021ED1CCBDF6400A192B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE4021F01CCBDF6400A192B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FE4021F21CCBDF6400A192B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE4021F71CCBDF6400A192B4 /* kermesse-clientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kermesse-clientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4021FB1CCBDF6400A192B4 /* kermesse_clientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kermesse_clientTests.swift; sourceTree = "<group>"; };
+		FE4021FD1CCBDF6400A192B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE4022021CCBDF6400A192B4 /* kermesse-clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kermesse-clientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4022061CCBDF6400A192B4 /* kermesse_clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kermesse_clientUITests.swift; sourceTree = "<group>"; };
+		FE4022081CCBDF6400A192B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE4021E51CCBDF6400A192B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4021F41CCBDF6400A192B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4021FF1CCBDF6400A192B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE4021DF1CCBDF6400A192B4 = {
+			isa = PBXGroup;
+			children = (
+				FE4021EA1CCBDF6400A192B4 /* kermesse-client */,
+				FE4021FA1CCBDF6400A192B4 /* kermesse-clientTests */,
+				FE4022051CCBDF6400A192B4 /* kermesse-clientUITests */,
+				FE4021E91CCBDF6400A192B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE4021E91CCBDF6400A192B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE4021E81CCBDF6400A192B4 /* kermesse-client.app */,
+				FE4021F71CCBDF6400A192B4 /* kermesse-clientTests.xctest */,
+				FE4022021CCBDF6400A192B4 /* kermesse-clientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE4021EA1CCBDF6400A192B4 /* kermesse-client */ = {
+			isa = PBXGroup;
+			children = (
+				FE4021EB1CCBDF6400A192B4 /* AppDelegate.swift */,
+				FE4021ED1CCBDF6400A192B4 /* Assets.xcassets */,
+				FE4021EF1CCBDF6400A192B4 /* MainMenu.xib */,
+				FE4021F21CCBDF6400A192B4 /* Info.plist */,
+			);
+			path = "kermesse-client";
+			sourceTree = "<group>";
+		};
+		FE4021FA1CCBDF6400A192B4 /* kermesse-clientTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE4021FB1CCBDF6400A192B4 /* kermesse_clientTests.swift */,
+				FE4021FD1CCBDF6400A192B4 /* Info.plist */,
+			);
+			path = "kermesse-clientTests";
+			sourceTree = "<group>";
+		};
+		FE4022051CCBDF6400A192B4 /* kermesse-clientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE4022061CCBDF6400A192B4 /* kermesse_clientUITests.swift */,
+				FE4022081CCBDF6400A192B4 /* Info.plist */,
+			);
+			path = "kermesse-clientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE4021E71CCBDF6400A192B4 /* kermesse-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE40220B1CCBDF6400A192B4 /* Build configuration list for PBXNativeTarget "kermesse-client" */;
+			buildPhases = (
+				FE4021E41CCBDF6400A192B4 /* Sources */,
+				FE4021E51CCBDF6400A192B4 /* Frameworks */,
+				FE4021E61CCBDF6400A192B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kermesse-client";
+			productName = "kermesse-client";
+			productReference = FE4021E81CCBDF6400A192B4 /* kermesse-client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE4021F61CCBDF6400A192B4 /* kermesse-clientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE40220E1CCBDF6400A192B4 /* Build configuration list for PBXNativeTarget "kermesse-clientTests" */;
+			buildPhases = (
+				FE4021F31CCBDF6400A192B4 /* Sources */,
+				FE4021F41CCBDF6400A192B4 /* Frameworks */,
+				FE4021F51CCBDF6400A192B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE4021F91CCBDF6400A192B4 /* PBXTargetDependency */,
+			);
+			name = "kermesse-clientTests";
+			productName = "kermesse-clientTests";
+			productReference = FE4021F71CCBDF6400A192B4 /* kermesse-clientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE4022011CCBDF6400A192B4 /* kermesse-clientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE4022111CCBDF6400A192B4 /* Build configuration list for PBXNativeTarget "kermesse-clientUITests" */;
+			buildPhases = (
+				FE4021FE1CCBDF6400A192B4 /* Sources */,
+				FE4021FF1CCBDF6400A192B4 /* Frameworks */,
+				FE4022001CCBDF6400A192B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE4022041CCBDF6400A192B4 /* PBXTargetDependency */,
+			);
+			name = "kermesse-clientUITests";
+			productName = "kermesse-clientUITests";
+			productReference = FE4022021CCBDF6400A192B4 /* kermesse-clientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE4021E01CCBDF6400A192B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Ysance;
+				TargetAttributes = {
+					FE4021E71CCBDF6400A192B4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FE4021F61CCBDF6400A192B4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FE4021E71CCBDF6400A192B4;
+					};
+					FE4022011CCBDF6400A192B4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FE4021E71CCBDF6400A192B4;
+					};
+				};
+			};
+			buildConfigurationList = FE4021E31CCBDF6400A192B4 /* Build configuration list for PBXProject "kermesse-client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE4021DF1CCBDF6400A192B4;
+			productRefGroup = FE4021E91CCBDF6400A192B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE4021E71CCBDF6400A192B4 /* kermesse-client */,
+				FE4021F61CCBDF6400A192B4 /* kermesse-clientTests */,
+				FE4022011CCBDF6400A192B4 /* kermesse-clientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE4021E61CCBDF6400A192B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4021EE1CCBDF6400A192B4 /* Assets.xcassets in Resources */,
+				FE4021F11CCBDF6400A192B4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4021F51CCBDF6400A192B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4022001CCBDF6400A192B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE4021E41CCBDF6400A192B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4021EC1CCBDF6400A192B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4021F31CCBDF6400A192B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4021FC1CCBDF6400A192B4 /* kermesse_clientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4021FE1CCBDF6400A192B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4022071CCBDF6400A192B4 /* kermesse_clientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE4021F91CCBDF6400A192B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE4021E71CCBDF6400A192B4 /* kermesse-client */;
+			targetProxy = FE4021F81CCBDF6400A192B4 /* PBXContainerItemProxy */;
+		};
+		FE4022041CCBDF6400A192B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE4021E71CCBDF6400A192B4 /* kermesse-client */;
+			targetProxy = FE4022031CCBDF6400A192B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE4021EF1CCBDF6400A192B4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE4021F01CCBDF6400A192B4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE4022091CCBDF6400A192B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE40220A1CCBDF6400A192B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FE40220C1CCBDF6400A192B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "kermesse-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ysance.labs.kermesse-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE40220D1CCBDF6400A192B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "kermesse-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ysance.labs.kermesse-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE40220F1CCBDF6400A192B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "kermesse-clientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ysance.labs.kermesse-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kermesse-client.app/Contents/MacOS/kermesse-client";
+			};
+			name = Debug;
+		};
+		FE4022101CCBDF6400A192B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "kermesse-clientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ysance.labs.kermesse-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kermesse-client.app/Contents/MacOS/kermesse-client";
+			};
+			name = Release;
+		};
+		FE4022121CCBDF6400A192B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "kermesse-clientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ysance.labs.kermesse-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "kermesse-client";
+			};
+			name = Debug;
+		};
+		FE4022131CCBDF6400A192B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "kermesse-clientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ysance.labs.kermesse-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "kermesse-client";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE4021E31CCBDF6400A192B4 /* Build configuration list for PBXProject "kermesse-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4022091CCBDF6400A192B4 /* Debug */,
+				FE40220A1CCBDF6400A192B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE40220B1CCBDF6400A192B4 /* Build configuration list for PBXNativeTarget "kermesse-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE40220C1CCBDF6400A192B4 /* Debug */,
+				FE40220D1CCBDF6400A192B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE40220E1CCBDF6400A192B4 /* Build configuration list for PBXNativeTarget "kermesse-clientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE40220F1CCBDF6400A192B4 /* Debug */,
+				FE4022101CCBDF6400A192B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE4022111CCBDF6400A192B4 /* Build configuration list for PBXNativeTarget "kermesse-clientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4022121CCBDF6400A192B4 /* Debug */,
+				FE4022131CCBDF6400A192B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE4021E01CCBDF6400A192B4 /* Project object */;
+}
